@@ -132,3 +132,18 @@ footer strong{color:#fff;letter-spacing:.12em}
   .stat-grid>div{border-right:0;border-bottom:1px solid var(--line)}
   .contacts{grid-template-columns:1fr}
 }
+
+/* Conference brochure photography extracted from the supplied PDF. */
+.brand{display:inline-flex;align-items:center;gap:9px}
+.brand:before{content:"";width:30px;height:30px;display:inline-block;background-image:url("assets/sprite.jpg");background-size:150px 120px;background-position:0 0;background-repeat:no-repeat;border-radius:50%}
+.hero-art{background-image:url("assets/sprite.jpg");background-size:750px 600px;background-position:-300px 0;background-repeat:no-repeat;background-color:#8d2115}
+.hero-art:after{display:none}
+.portrait{background-image:url("assets/sprite.jpg");background-size:750px 600px;background-repeat:no-repeat;background-color:#ddd}
+.portrait:after{display:none}
+.p1{background-position:-600px -150px}.p2{background-position:0 -300px}.p3{background-position:-150px -300px}.p4{background-position:-300px -300px}.p5{background-position:-450px -300px}.p6{background-position:-600px -300px}.p7{background-position:0 -450px}.p8{background-position:-150px -450px}.p9{background-position:-300px -450px}.p10{background-position:-450px -450px}
+.patron{position:relative;padding-top:190px}
+.patron:before{content:"";position:absolute;left:18px;right:18px;top:18px;height:150px;background-image:url("assets/sprite.jpg");background-size:750px 600px;background-repeat:no-repeat;background-position:-600px 0;border:1px solid #555}
+.patron:nth-child(2):before{background-position:0 -150px}
+.patron:nth-child(3):before{background-position:-150px -150px}
+.patron:nth-child(4):before{background-position:-300px -150px}
+.patron:nth-child(5):before{background-position:-450px -150px}
