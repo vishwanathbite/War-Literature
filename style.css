@@ -171,3 +171,71 @@ footer strong{color:#fff;letter-spacing:.12em}
 .patron:nth-child(3):before{background-position:0 -150px}
 .patron:nth-child(4):before{background-position:-150px -150px}
 .patron:nth-child(5):before{background-position:-300px -150px}
+
+
+/* High-resolution conference portraits — exact order from the brochure. */
+.brand:before{
+  background-image:none;
+  background:var(--ink);
+  border-radius:50%;
+  box-shadow:inset 0 0 0 2px rgba(255,255,255,.35);
+}
+.hero-art{
+  background-image:linear-gradient(135deg,rgba(255,255,255,.08),transparent 44%),
+    linear-gradient(45deg,transparent 47%,rgba(255,255,255,.18) 48%,rgba(255,255,255,.18) 52%,transparent 53%),
+    linear-gradient(135deg,transparent 47%,rgba(0,0,0,.16) 48%,rgba(0,0,0,.16) 52%,transparent 53%);
+  background-color:#8d2115;
+}
+.portrait{
+  width:min(100%,220px);
+  aspect-ratio:4/5;
+  height:auto;
+  margin:10px auto 15px;
+  background-image:url("assets/people.webp");
+  background-size:500% 300%;
+  background-repeat:no-repeat;
+  background-color:#f6f4ef;
+  border:1px solid var(--line);
+  position:relative;
+  overflow:hidden;
+}
+.portrait:after{display:none}
+.p1{background-position:0% 50%}
+.p2{background-position:25% 50%}
+.p3{background-position:50% 50%}
+.p4{background-position:75% 50%}
+.p5{background-position:100% 50%}
+.p6{background-position:0% 100%}
+.p7{background-position:25% 100%}
+.p8{background-position:50% 100%}
+.p9{background-position:75% 100%}
+.p10{background-position:100% 100%}
+
+.patron{
+  position:relative;
+  padding:24px 18px;
+}
+.patron:before{
+  position:relative;
+  left:auto;
+  right:auto;
+  top:auto;
+  display:block;
+  width:min(100%,180px);
+  aspect-ratio:4/5;
+  height:auto;
+  margin:0 auto 18px;
+  background-image:url("assets/people.webp");
+  background-size:500% 300%;
+  background-repeat:no-repeat;
+  background-color:#f6f4ef;
+  border:1px solid #555;
+}
+.patron:nth-child(1):before{background-position:0% 0%}
+.patron:nth-child(2):before{background-position:25% 0%}
+.patron:nth-child(3):before{background-position:50% 0%}
+.patron:nth-child(4):before{background-position:75% 0%}
+.patron:nth-child(5):before{background-position:100% 0%}
+@media(max-width:720px){
+  .patron{padding-top:24px}
+}
