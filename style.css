@@ -154,3 +154,20 @@ footer strong{color:#fff;letter-spacing:.12em}
 .register-panel{position:relative}
 .register-panel:after{content:"";width:76px;height:76px;display:block;background-image:url("assets/sprite.jpg");background-size:380px 304px;background-position:-304px -228px;background-repeat:no-repeat;border:4px solid #fff}
 @media(max-width:720px){.register-panel:after{align-self:center}.patron{padding-top:185px}}
+
+/* Corrected sprite coordinates: the brochure asset sprite is a 5×4 grid in original extraction order. */
+.p1{background-position:-450px -150px}
+.p2{background-position:-600px -150px}
+.p3{background-position:0 -300px}
+.p4{background-position:-150px -300px}
+.p5{background-position:-300px -300px}
+.p6{background-position:-450px -300px}
+.p7{background-position:-600px -300px}
+.p8{background-position:0 -450px}
+.p9{background-position:-150px -450px}
+.p10{background-position:-300px -450px}
+.patron:before{background-position:-450px 0}
+.patron:nth-child(2):before{background-position:-600px 0}
+.patron:nth-child(3):before{background-position:0 -150px}
+.patron:nth-child(4):before{background-position:-150px -150px}
+.patron:nth-child(5):before{background-position:-300px -150px}
