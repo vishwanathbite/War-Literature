@@ -282,3 +282,14 @@ footer strong{color:#fff;letter-spacing:.12em}
 .portrait-img{background:#f6f4ef}
 .portrait-img img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 @media(max-width:1000px){.hero-art img{min-height:260px}}
+
+
+/* Use the same proven CSS photo pattern as the working Salman Rahimi and Shrinanda Bapat cards. */
+.hero-art.has-photo{
+  background-image:var(--photo);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.hero-art.has-photo:after{display:none}
+.hero-art.has-photo img{display:none}
