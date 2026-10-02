@@ -265,3 +265,12 @@ footer strong{color:#fff;letter-spacing:.12em}
   background-position:center;
   background-repeat:no-repeat;
 }
+
+
+/* Final hero artwork supplied for the War Literature conference. */
+.hero-art{
+  background-image:url("assets/war-literature-hero.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
