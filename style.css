@@ -249,3 +249,19 @@ footer strong{color:#fff;letter-spacing:.12em}
 .bank-grid p{margin:7px 0 0;font-size:.85rem}
 @media(max-width:900px){.bank-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.bank-grid{grid-template-columns:1fr}}
+
+
+/* Verified public portraits: use the source image directly rather than a low-resolution sprite. */
+.portrait.has-photo{
+  background-image:var(--photo);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.portrait.has-photo:after{display:none}
+.patron.has-photo:before{
+  background-image:var(--photo);
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
