@@ -274,3 +274,11 @@ footer strong{color:#fff;letter-spacing:.12em}
   background-position:center;
   background-repeat:no-repeat;
 }
+
+
+/* Final image rendering fix: use native image elements for the supplied hero and Dr Špicová portrait. */
+.hero-art{overflow:hidden;background-color:#8d2115}
+.hero-art img{display:block;width:100%;height:100%;min-height:390px;object-fit:cover;object-position:center}
+.portrait-img{background:#f6f4ef}
+.portrait-img img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+@media(max-width:1000px){.hero-art img{min-height:260px}}
