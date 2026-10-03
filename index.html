@@ -6,6 +6,27 @@
   <meta name="description" content="International Conference on War Literature — 26–27 October 2026, Department of English, Government Vidarbha Institute of Science & Humanities, Amravati." />
   <title>War Literature | GVISH Amravati | 26–27 October 2026</title>
   <link rel="stylesheet" href="style.css?v=20261002-6" />
+<style>
+/* Desktop polish: keep closed theme rows compact and remove the orphan bank cell. */
+.theme-card{min-height:0}
+.theme-card summary{min-height:72px}
+.bank-grid{background:transparent;border:1px solid rgba(255,255,255,.25)}
+.bank-grid>div{border-right:1px solid rgba(255,255,255,.25);border-bottom:1px solid rgba(255,255,255,.25)}
+.bank-grid>div:nth-child(4n){border-right:0}
+.bank-grid>div:nth-last-child(-n+4){border-bottom:0}
+.bank-grid>div:last-child{grid-column:3 / span 2}
+@media(max-width:900px){
+  .bank-grid>div:nth-child(4n){border-right:0}
+  .bank-grid>div:nth-last-child(-n+4){border-bottom:1px solid rgba(255,255,255,.25)}
+  .bank-grid>div:last-child{grid-column:auto}
+  .bank-grid>div:nth-last-child(-n+2){border-bottom:0}
+}
+@media(max-width:520px){
+  .bank-grid>div{border-right:0!important;border-bottom:1px solid rgba(255,255,255,.25)!important}
+  .bank-grid>div:last-child{grid-column:auto}
+  .bank-grid>div:last-child{border-bottom:0!important}
+}
+</style>
 </head>
 <body>
   <header class="site-header">
@@ -107,7 +128,7 @@
         <article class="speaker-card"><span>07</span><div class="portrait p7 has-photo" style="--photo:url('https://www.english.ox.ac.uk/sites/default/files/english/images/media/santanu_das.jpg')"></div><h3>Santanu Das</h3><p>Professor, Department of English, University of Oxford</p></article>
         <article class="speaker-card"><span>08</span><div class="portrait p8 has-photo" style="--photo:url('https://vishwanathbite.github.io/War-Literature/assets/dr-spicova.jpg?v=20261002-6')"></div><h3>Dr Špicová</h3><p>Charles University, Prague, Czech Republic</p></article>
         <article class="speaker-card"><span>09</span><div class="portrait p9 has-photo" style="--photo:url('https://aliah.ac.in//upload/people_profile/27-05-24_1716803821.jpg')"></div><h3>Dr Sharmistha Chatterjee</h3><p>Professor, Department of English, Aliah University, Kolkata</p></article>
-        <article class="speaker-card"><span>10</span><div class="portrait p10 has-photo" style="--photo:url('https://vishwanathbite.github.io/War-Literature/assets/shrinanda-bapat.jpg?v=20261002-2')"></div><h3>Dr Shrinanda Bapat</h3><p>Curator, Bhandarkar Oriental Research Institute, Pune</p></article>
+        <article class="speaker-card"><span>10</span><div class="portrait p10 has-photo" style="--photo:url('https://vishwanathbite.github.io/War-Literature/assets/shrinanda-bapat.webp?v=20261003-1')"></div><h3>Dr Shrinanda Bapat</h3><p>Curator, Bhandarkar Oriental Research Institute, Pune</p></article>
       </div>
     </section>
 
